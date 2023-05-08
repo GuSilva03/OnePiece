@@ -41,7 +41,7 @@ body::after{
     perspective: 1000px;
 }
 .frente, .verso{
-    width: 300px;
+    width: 280px;
     min-height: 600px;
     height: auto;
     background-color: #000;
@@ -62,11 +62,11 @@ body::after{
 }
 .flip-card:nth-of-type(2) .frente,
 .flip-card:nth-of-type(2) .verso{
-    background-image: url("https://vignette.wikia.nocookie.net/jend/images/c/c5/2434101-render_luffy.png/revision/latest?cb=20130925042103");
+    background-image: url("https://i0.wp.com/metagalaxia.com.br/wp-content/uploads/2022/09/Monkey-D-Luffy-One-Piece.webp?fit=1240%2C1016&ssl=1");
 }
 .flip-card:nth-of-type(3) .frente,
 .flip-card:nth-of-type(3) .verso{
-    background-image: url("https://tse2.mm.bing.net/th?id=OIP.suSYk0QlkES1LYWIqyQV1AHaHz&pid=Api&P=0");
+    background-image: url("https://i.pinimg.com/originals/c5/a9/68/c5a968eb0a92b427ca26646cf55526bb.jpg");
 }
 .frente{
     transform: rotateY(0deg);
@@ -92,7 +92,7 @@ body::after{
 .frente .inner,
 .verso .inner{
     width: 100%;
-    padding: 40px;
+    padding: 30px;
     position: absolute;
     font-family:'Caveat', cursive;;
     top: 50%;
@@ -100,25 +100,34 @@ body::after{
     z-index: 2;
 }
 .inner .icone{
-    width: 100px;
-    margin-bottom: 22px;
+    width: 90px;
+    margin-bottom: 5px;
 }
 .inner h3{
     margin-bottom: 8px;
     color: #FFFFFF;
     font-size: 40px;
     font-weight: 700;
-    line-height: 30px;
+    line-height: 10px;
     text-transform: capitalize;
 }
 .inner p{
     color: #FFFFFF;
-    font-size: 25px;
-    line-height: 18px;
+    font-size: 27px;
+    line-height: 28px;
 }
 .flip-card:hover .frente{
     transform: rotateY(-100deg);
 }
 .flip-card:hover .verso{
     transform: rotateY(0deg);
+}
+.sanji{
+    color: #FAFE02;
+}
+.luffy{
+    color: #FE6602;
+}
+.zoro{
+    color: #0DE72E;
 }
